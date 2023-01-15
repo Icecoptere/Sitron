@@ -1,1 +1,3 @@
-printd("Hello World")
+import pipreqs
+
+print("Hello World")
