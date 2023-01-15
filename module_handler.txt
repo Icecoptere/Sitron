@@ -5,14 +5,12 @@ To generate it, best is to use pipreqs:
 
 $ pipreqs . --force
 
-will create a requirements.txt file which contains all modules and can then be installed using
+will create a requirements.txt file which contains all modules and can then be installed using :
 
 $ pip3 install -r /path/to/requirements.txt
 
 
 
-#
+# Another way to list all modules is (but it lists all modules installed in the env, and not just the ones you use)
 
-Another way to list all modules is (but it lists all modules installed in the env, and not just the ones you use)
-
-pip3 freeze > requirements.txt
+pip3 freeze > requirements_pip.txt
