@@ -19,3 +19,10 @@ We can then install the modules from this file using :
 Another way to list all modules is (but it lists all modules installed in the env, and not just the ones you use)
 
 >pip3 freeze > requirements_pip.txt
+
+
+## Start
+
+Pour lancer le projet :
+>cd sitron
+>sitron/ python manage.py runserver
