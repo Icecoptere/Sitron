@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.views.defaults import server_error
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('prems/', include('firstpage.urls')),
+    path('montre_ton_pubis/', server_error)
 ]
